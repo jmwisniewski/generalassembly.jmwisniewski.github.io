@@ -1,0 +1,32 @@
+body {
+	background: #DEF3FF;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	color: #373D40;
+	font-family: Arial, sans-serif;
+	text-decoration: overline;
+}
+
+img {
+	width: 100%;
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-size: 40px;
+	color: #373D40;
+	font-family: Arial, sans-serif;
+	margin: 10px;
+}
+
+hr {
+	color: #373D40;
+	width: 50%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
