@@ -13,6 +13,8 @@ h1 {
 
 img {
 	width: 100%;
+	max-width: 1485px;
+	min-width: 848px;
 }
 
 #slogan {
@@ -25,8 +27,16 @@ img {
 }
 
 hr {
-	color: #373D40;
+	background-color: #373D40;
+	border: none;
+	height: 2px;
 	width: 50%;
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+#wrapper {
+	background-color: yellow;
+	width: 60%;
+	margin: auto;
 }
