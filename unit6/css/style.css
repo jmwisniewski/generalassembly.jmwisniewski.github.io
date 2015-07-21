@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Anaheim|Rokkitt);
+
+nav {
+  /*background-color: #CCCCCC;*/
+  font-family: 'Anaheim', sans-serif;
+  font-size: 1.5em;
+}
+
+header nav h3 {
+  /*background-color: #CCCCCC;*/
+  color: #1A1A1A;
+  float: left;
+  padding: 15px;
+}
+
+header nav a {
+  /*background-color: #666666;*/
+  color: #1A1A1A;
+  text-decoration: none;
+  display: block;
+  float: right;
+  padding: 15px 50px;
+}
+
+a:hover {
+  background-color: #1A1A1A;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  padding: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6em;
+  text-transform: uppercase;
+  padding: 3.33em;
+}
+
+p {
+  font-family: 'Rokkitt', serif;
+  font-size: 2em;
+  text-align: center;
+  margin: 3em 1em;
+}
+
+.imagegallery a {
+  font-family: 'Anaheim', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #666666;
+  padding: 25px;
+  margin: 200px 8px;
+}
+
+.cv a {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Rokkitt', serif;
+  font-size: 2em;
+  display: inline-block;
+  width: 200px;
+  border: 2px solid #666666;
+  padding: 15px;
+}
+
+.column {
+  float: left;
+  width: 687px;
+/*  height: 300px;*/
+/*  padding: 20px;*/
+  margin: 0;
+}
+
+.homenav {
+  text-align: center;
+}
+
+.centernav {
+  background-color: #ffffff;
+  border: 2px solid #666666;
+  color: #1A1A1A;
+  font-size: 1.5em;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em 3em;
+  margin: 10px 15px 10px 60px;
+}
+
+.centernav:hover {
+  background-color: #1A1A1A;
+  color: #ffffff;
+}
+
+.aboutinfo {
+  text-align: center;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+#column1 p {
+  text-align: right;
+}
+
+#column2 p {
+  text-align: left;
+}
