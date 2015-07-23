@@ -1,0 +1,169 @@
+@import url(http://fonts.googleapis.com/css?family=Anaheim|Rokkitt);
+
+body {
+  font-size: 16px;
+}
+
+nav {
+  /*background-color: black;*/
+  font-family: 'Anaheim', sans-serif;
+  font-size: 1.5em;
+  width: 312px;
+  float: right;
+}
+
+h3 {
+  /*background-color: red;*/
+  color: #1A1A1A;
+  float: left;
+  padding: 15px;
+}
+
+nav a {
+  /*background-color: blue;*/
+  color: #1A1A1A;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 15px 50px;
+}
+
+a {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #1A1A1A;
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #1A1A1A;
+  padding: 1.5em;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 6em;
+  text-shadow: 2px 2px #1A1A1A;
+  text-transform: lowercase;
+  padding: 2.25em;
+}
+
+p {
+  font-family: 'Rokkitt', serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 40px 320px;
+}
+
+.imagegallery a {
+  text-align: center;
+  font-family: 'Anaheim', sans-serif;
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 2px 2px #1A1A1A;
+  float: left;
+  width: 125px;
+  height: 125px;
+  border: 2px solid #666666;
+  padding: 23px;
+  margin: 150px 12px;
+}
+
+.aboutinfo {
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+}
+
+.cv a {
+  text-decoration: none;
+  font-size: 2em;
+  display: inline-block;
+  width: 200px;
+  border: 2px solid #666666;
+  padding: 5px;
+}
+
+.homenav {
+  text-align: center;
+}
+
+.centernav a {
+  font-family: 'Anaheim', sans-serif;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #1A1A1A;
+  font-size: 1.5em;
+  display: inline-block;
+  border: 2px solid #1A1A1A;
+  padding: 1em 3em;
+  margin: 10px 35px 10px 35px;
+}
+
+.centernav a:hover {
+  background-color: #1A1A1A;
+  color: #ffffff;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+#homepage {
+  background-image: url("../images/bathroom.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100%;
+  border: 10px solid white;
+}
+
+#gallery1 {
+  background-image: url("../images/1.jpg");
+  width: 200px;
+  height: 200px;
+  opacity: 0.4;
+}
+
+#gallery2 {
+  background-image: url("../images/2.jpg");
+  width: 200px;
+  height: 200px;
+  opacity: 0.4;
+}
+
+#gallery3 {
+  background-image: url("../images/3.jpg");
+  width: 200px;
+  height: 200px;
+  opacity: 0.4;
+}
+
+#gallery4 {
+  background-image: url("../images/4.jpg");
+  width: 200px;
+  height: 200px;
+  opacity: 0.4;
+}
+
+#gallery5 {
+  background-image: url("../images/5.jpg");
+  width: 200px;
+  height: 200px;
+  opacity: 0.4;
+}
+
+#emailaddress {
+  border-bottom: 1px solid #1A1A1A;
+}
