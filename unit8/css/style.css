@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100|Montserrat:700|Open+Sans);
+
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	background-color: #00172E;
+	margin: 0;
+}
+
+header {
+	border-bottom: 1px solid #808080;
+	padding: .5em 0;
+}
+
+footer {
+	border-top: 1px solid #808080;
+	padding: .5em 0;
+	margin-top: 170px;
+}
+
+a {
+	text-decoration: none;
+	color: #808080;
+}
+
+#landingpage {
+	background: url(../images/SpellmanMustang.jpg) no-repeat fixed top;
+	background-size: 100%;
+	opacity: .9;
+	height: 43em;
+}
+
+.logo {
+	float: left;
+	font-size: .7em;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 10px 20px;
+}
+
+.nav a {
+	float: right;
+	font-size: .6em;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 10px 20px;
+}
+
+.wholepage {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.headline {
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+	.headline h1 {
+		font-size: 4.5em;
+		margin: 1em 0 0 0;
+	}
+
+	.headline h2 {
+		font-size: 2.5em;
+		margin: -.4em 0 0 1em;
+		display: inline-block;
+	}
+
+	.headline h3 {
+		margin: 0 0 0 1em;
+		display: inline-block;
+	}
+
+#video {
+	font-family: 'Lato', Arial, sans-serif;
+	text-align: center;
+	font-size: .8em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 1em 0;
+}
+	
+	#video h2 {
+		margin: 0 0 3em 0;
+	}
+
+	#video h3 {
+		font-size: 1em;
+		text-transform: none;
+		border-bottom: 1px solid #FFFFFF;
+	}
+
+	#video iframe {
+		width: auto;
+		height: 200px;
+		border: 0;
+	}
+
+#photo {
+	background-color: #FFFFFF;
+	font-family: 'Lato', Arial, sans-serif;
+	text-align: center;
+	font-size: .8em;
+	text-transform: uppercase;
+	color: #00172E;
+	padding: 1em 0;
+}
+
+	#photo h2 {
+		margin: 0 0 3em 0;
+	}
+
+	#photo img {
+		width: auto;
+		height: 400px;
+		margin: .2%;
+		box-shadow: 10px 10px 50px #00172E;
+	}
+
+#contact {
+	background: url(../images/SpellmanMustang.jpg) no-repeat fixed top;
+	background-size: cover;
+	opacity: .9;
+	height: 28em;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 1em 0;
+}
+
+	#contact h2 {
+		font-family: 'Lato', Arial, sans-serif;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0 0 1em 0;
+	}
+
+	#contact img {
+		float: left;
+	}
+
+	#contact p {
+		font-family: 'Montserrat', sans-serif;
+		text-decoration: none;
+		padding: .8em 0 .8em 15em;
+	}
+
+	#contact p a {
+		color: #FFFFFF;
+		border-bottom: 1px solid;
+	}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+@media only screen and (min-width: 713px) and (max-width: 1095px) {
+	body {
+		font-size: 11px;
+	}
+	#photo img {
+		width: auto;
+		margin: 1%;
+	}
+}
+
+
+@media only screen and (max-width: 712px) {
+	body {
+		font-size: 8px;
+	}
+	header {
+		border-bottom: none;
+	}
+	footer {
+		border-top: none;
+		margin-top: 0;
+	}
+	.logo {
+		display: none;
+	}
+	.nav a {
+		display: none;
+	}
+	#landingpage {
+		height: 20em;
+	}
+	.headline h1 {
+		font-size: 2.5em;
+		margin: 1em 0 0 .5em;
+	}
+	.headline h2 {
+		font-size: 1.5em;
+		margin: 0 0 0 15px;
+	}
+	.headline h3 {
+		margin: 0 0 0 15px;
+	}
+	#contact p {
+		padding: 2em 0 2em 15em;
+	}
+}
