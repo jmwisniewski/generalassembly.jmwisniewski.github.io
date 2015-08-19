@@ -1,0 +1,306 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700|Lato:100|Open+Sans);
+
+/** {
+   border: 1px solid red !important;
+}*/
+
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #00172E;
+	color: #808080;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #808080;
+	padding: 0 3em;
+}
+
+a:hover {
+	color: #00172E;
+}
+
+header {
+	font-size: .6em;
+	border-bottom: 1px solid #808080;
+	padding: 2em 0;
+}
+
+footer {
+	font-size: .6em;
+	border-top: 1px solid #808080;
+	padding: 2em 0;
+	margin-top: 52em;
+}
+
+
+
+
+.pagesidemargin {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.wordmark {
+	float: left;
+}
+
+.nav {
+	float: right;
+}
+
+.headline {
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin: 6em 0 0 2em;
+}
+
+	.headline h1 {
+		font-size: 5em;
+		display: inline-block;
+	}
+
+	.headline h2 {
+		font-size: 3em;
+		display: inline-block;
+		margin-right: .5em;
+	}
+
+	.headline h3 {
+		font-size: 1.5em;
+		display: inline-block;
+	}
+
+.videowrapper {
+	position: relative;
+	padding-bottom: 10%;
+	padding-top: 250px;
+	height: 0;
+	width: 33.1%;
+	display: inline-block;
+}
+
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+
+
+#landingpage, #contact {
+	background: url(../images/SpellmanMustang.jpg) no-repeat fixed top;
+	background-size: 100%;
+	opacity: .9;
+	height: 42em;
+}
+
+#video, #photo {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+	
+#video {
+	color: #FFFFFF;
+	padding-bottom: 4em;
+}
+
+	#video h2{
+		padding: 1em 0 1.5em 0;
+		font-size: 2em;
+	}
+
+	#video h3 {
+		padding: .5em 0;
+		font-size: 1em;
+		border-bottom: 1px solid #FFFFFF;
+	}
+
+#photo {
+	background-color: #FFFFFF;
+	color: #00172E;
+	padding-bottom: 4em;
+}
+	#photo h2 {
+		padding: 2em 0 1.5em 0;
+		font-size: 2em;
+	}
+	#photo img {
+		width: 24.8%;
+	}
+
+#contact {
+	color: #FFFFFF;
+}
+	#contact h2 {
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 1em 0 1.5em 0;
+		font-size: 2em;
+	}
+
+	#contact img {
+		float: left;
+		padding-left: 3em;
+	}
+
+	#contact p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: .9em;
+		padding: 5em 0;
+		float: left;
+	}
+
+	#contact p a {
+		text-shadow: 1px 1px #FFFFFF;
+	}
+
+
+
+
+@media only screen and (max-width: 1185px) {
+	body {
+		font-size: 14px;
+	}
+	header {
+		font-size: .8em;
+	}
+	footer {
+		font-size: .8em;
+		margin-top: 38em;
+	}
+	#contact {
+		background: url(../images/SpellmanMustang.jpg) no-repeat fixed bottom;
+	}
+	#contact p {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 1124px) {
+	#contact img {
+		float: none;
+		display: block;
+		margin: auto;
+		padding-left: 0;
+	}
+	#contact p {
+		float: none;
+		display: block;
+		margin: auto;
+		text-align: center;
+		padding: 0;
+	}
+	footer {
+		margin-top: 20em;
+	}
+}
+
+@media only screen and (max-width: 1035px) {
+	body {
+		font-size: 12px;
+	}
+	#contact {
+		height: 32em;
+	}
+	footer {
+		padding: 1em 0;
+		margin-top: 5em;
+	}
+	footer .wordmark {
+		display: none;
+	}
+	footer .nav {
+		float: none;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+	body {
+		font-size: 10px;
+	}
+	.videowrapper {
+		width: 49.8%;
+	}
+	#contact img {
+		width: 10%;
+	}
+	#contact p {
+		font-size: 1.5em;
+		padding: .5em 0;
+	}
+	#contact a {
+		padding: 0 1em;
+	}
+}
+
+@media only screen and (max-width: 742px) {
+	body {
+		font-size: 8px;
+	}
+	#photo img {
+		width: 33.1%;
+	}	
+}
+
+@media only screen and (max-width: 605px) {
+	a {
+		padding: 0 1em;
+	}
+	header .wordmark {
+		display: none;
+	}
+	header .nav {
+		float: none;
+		text-align: center;
+	}
+	.headline h1 {
+		font-size: 3em;
+		display: block;
+	}
+	.headline h2 {
+		font-size: 2em;
+		display: block;
+	}
+	.headline h3 {
+		font-size: 1.5em;
+		display: block;
+	}
+	.videowrapper {
+		width: 100%;
+	}
+	#landingpage, #contact {
+		height: 30em;
+	}
+	#video h3 {
+		padding: 1em 0;
+		font-size: 2em;
+	}
+	#photo img {
+		width: 49.8%;
+	}	
+}
+
+@media only screen and (max-width: 430px) {
+	#photo img {
+		width: 100%;
+	}
+}
